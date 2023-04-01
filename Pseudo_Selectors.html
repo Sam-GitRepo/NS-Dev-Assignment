@@ -1,0 +1,41 @@
+<!-- HTML Part -->
+
+<body>
+  <section>
+    <p class="first">Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <ul class="last">
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+    </ul>
+  </section>
+  <section>
+    <p class="first">Paragraph 3</p>
+    <p>Paragraph 4</p>
+    <ul class="last">
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+    </ul>
+  </section>
+</body>
+
+
+<!-- CSS Part -->
+
+p{
+    font-size: 18px;
+}
+.first{
+    background-color: rgb(255, 255, 0);
+}
+.last{
+    background-color: rgb(119, 141, 240);
+}
+ul li:nth-child(2){
+    font-weight: bold;
+}
+ul li:last-child{
+    text-decoration: underline;
+}
