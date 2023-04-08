@@ -1,0 +1,7 @@
+.holder {
+    /* Write css here */ 
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
