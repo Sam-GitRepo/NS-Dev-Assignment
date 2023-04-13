@@ -1,0 +1,20 @@
+#square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    animation: moveSquare 2s infinite;
+  }
+  
+  @keyframes moveSquare {
+    0%{
+      left: 0;
+    }
+    50%{
+      left: 600px;
+    }
+    100%{
+      left: 0;
+    }
+  
+  }
