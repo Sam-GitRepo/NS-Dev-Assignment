@@ -1,0 +1,23 @@
+/* HTML */
+
+<section>
+    <img class="moviePic" src="https://www.imdb.com/title/tt0241527/" alt="IMDB_">
+    <p class="movieDetail">IMDB pics</p>
+  
+  </section>
+
+  <!-- CSS -->
+  
+  .moviePic {
+  height: 30px;
+  width: 30px;
+  opacity: 0.8;
+}
+
+.movieDetail {
+  position: relative;
+  top: 10px;
+  width: 20px;
+  text-align: center;
+  font-size: 20px;
+}
