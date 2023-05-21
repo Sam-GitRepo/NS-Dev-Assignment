@@ -17,3 +17,4 @@ secondDiv.addEventListener("click", () => {
     event.stopPropagation();
     output.innerText += "second div called -- ";
 });
+
